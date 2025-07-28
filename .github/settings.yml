@@ -1,0 +1,17 @@
+# GitHub Repository Settings
+repository:
+  # Hide contributors section
+  has_wiki: false
+  has_projects: false
+  has_downloads: false
+  
+  # Repository features
+  allow_merge_commit: true
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  
+  # Default branch protection
+  default_branch: main
+  
+  # Hide contributors
+  contributors: false 

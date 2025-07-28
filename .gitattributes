@@ -1,0 +1,8 @@
+# Hide contributors section
+.github/contributors.yml linguist-documentation
+
+# Mark files as documentation to reduce repository size calculation
+*.md linguist-documentation
+*.txt linguist-documentation
+*.yml linguist-documentation
+*.yaml linguist-documentation 
