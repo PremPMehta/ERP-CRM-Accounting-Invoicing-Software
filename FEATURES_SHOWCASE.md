@@ -256,4 +256,10 @@ The ERP CRM system is a comprehensive business management solution that combines
 
 ---
 
-*This features showcase demonstrates the comprehensive capabilities of the ERP CRM system. For detailed information about specific features, please refer to the user documentation or contact our support team.* 
+*This features showcase demonstrates the comprehensive capabilities of the ERP CRM system. For detailed information about specific features, please refer to the user documentation or contact our support team.*
+
+---
+
+<div align="center">
+  <p><strong>Built upon and refined with ❤️ by Prem Mehta</strong></p>
+</div> 

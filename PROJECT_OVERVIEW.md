@@ -211,4 +211,10 @@ Node.js/Express.js Server
 
 ---
 
-*This document provides a comprehensive overview of the ERP CRM system. For detailed technical documentation, please refer to the specific module documentation.* 
+*This document provides a comprehensive overview of the ERP CRM system. For detailed technical documentation, please refer to the specific module documentation.*
+
+---
+
+<div align="center">
+  <p><strong>Built upon and refined with ❤️ by Prem Mehta</strong></p>
+</div> 

@@ -522,4 +522,10 @@ app.use(express.static('public', { maxAge: '1d' }));
 
 ---
 
-*For more detailed deployment instructions, please refer to the specific cloud provider documentation.* 
+*For more detailed deployment instructions, please refer to the specific cloud provider documentation.*
+
+---
+
+<div align="center">
+  <p><strong>Built upon and refined with ❤️ by Prem Mehta</strong></p>
+</div> 

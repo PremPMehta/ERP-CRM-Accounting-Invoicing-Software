@@ -505,4 +505,10 @@ customers = response.json()
 
 ---
 
-*For more detailed information about specific endpoints, please refer to the source code or contact the development team.* 
+*For more detailed information about specific endpoints, please refer to the source code or contact the development team.*
+
+---
+
+<div align="center">
+  <p><strong>Built upon and refined with ❤️ by Prem Mehta</strong></p>
+</div> 
