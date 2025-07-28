@@ -253,29 +253,11 @@ This project is licensed under the **GNU Affero General Public License v3.0** - 
 
 ---
 
-## 🙏 Acknowledgments
-
-- **Original Project**: [IDURAR ERP CRM](https://github.com/idurar/idurar-erp-crm)
-- **UI Framework**: [Ant Design](https://ant.design/)
-- **Backend Framework**: [Express.js](https://expressjs.com/)
-- **Database**: [MongoDB](https://www.mongodb.com/)
-- **Frontend Framework**: [React.js](https://reactjs.org/)
-
----
-
-<div align="center">
-  <p><strong>Made with ❤️ by the Open Source Community</strong></p>
-  
-  [![GitHub stars](https://img.shields.io/github/stars/PremPMehta/ERP-CRM-Accounting-Invoicing-Software?style=social)](https://github.com/PremPMehta/ERP-CRM-Accounting-Invoicing-Software/stargazers)
-  [![GitHub forks](https://img.shields.io/github/forks/PremPMehta/ERP-CRM-Accounting-Invoicing-Software?style=social)](https://github.com/PremPMehta/ERP-CRM-Accounting-Invoicing-Software/network/members)
-  [![GitHub issues](https://img.shields.io/github/issues/PremPMehta/ERP-CRM-Accounting-Invoicing-Software)](https://github.com/PremPMehta/ERP-CRM-Accounting-Invoicing-Software/issues)
-  
-  <p>⭐ Star this repository if you found it helpful!</p>
-</div>
-
 ---
 
 <div align="center">
   <p><strong>Built upon and refined with ❤️ by Prem Mehta</strong></p>
+  
+  <small>Based on [IDURAR ERP CRM](https://github.com/idurar/idurar-erp-crm) • Powered by React.js, Express.js, MongoDB & Ant Design</small>
 </div>
 
