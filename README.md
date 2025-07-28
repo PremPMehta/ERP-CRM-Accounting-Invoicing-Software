@@ -1,8 +1,6 @@
 # 🚀 ERP CRM Accounting & Invoicing Software
 
 <div align="center">
-  <img src="idurar-crm-erp.svg" alt="ERP CRM Logo" width="200"/>
-  
   <h1>Complete Business Management Solution</h1>
   
   <p><strong>Open Source ERP/CRM System with Invoice, Payment, Quote & Customer Management</strong></p>
