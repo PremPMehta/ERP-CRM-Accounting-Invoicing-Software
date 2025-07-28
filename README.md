@@ -1,120 +1,274 @@
+# 🚀 ERP CRM Accounting & Invoicing Software
+
 <div align="center">
-    <a href="https://www.idurarapp.com/">
-  <img src="https://avatars.githubusercontent.com/u/50052356?s=200&v=4" width="128px" />
-    </a>
-    <h1>Open Source ERP / CRM Accounting Invoice Quote</h1>
-    <p align="center">
-        <p>IDURAR ERP CRM | Simple To Use</p>
-    </p>
-    
-
-```
- Give a Star ⭐️ & Fork to this project ... Happy coding! 🤩`
-```
-
-IDURAR is Open Source ERP / CRM (Invoice / Quote / Accounting ) Based on Advanced Mern Stack (Node.js / Express.js / MongoDb / React.js ) with Ant Design (AntD) and Redux
-
+  <img src="idurar-crm-erp.svg" alt="ERP CRM Logo" width="200"/>
+  
+  <h1>Complete Business Management Solution</h1>
+  
+  <p><strong>Open Source ERP/CRM System with Invoice, Payment, Quote & Customer Management</strong></p>
+  
+  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-green.svg)](https://opensource.org/licenses/AGPL-3.0)
+  [![Node.js](https://img.shields.io/badge/Node.js-18.x-brightgreen.svg)](https://nodejs.org/)
+  [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
+  [![MongoDB](https://img.shields.io/badge/MongoDB-6.x-green.svg)](https://www.mongodb.com/)
+  [![Express.js](https://img.shields.io/badge/Express.js-4.x-black.svg)](https://expressjs.com/)
+  [![Ant Design](https://img.shields.io/badge/Ant%20Design-5.x-blue.svg)](https://ant.design/)
+  
+  <p>Built with ❤️ using the MERN Stack (MongoDB, Express.js, React.js, Node.js)</p>
+  
+  [Live Demo](https://cloud.idurarapp.com) • [Documentation](https://github.com/idurar/idurar-erp-crm) • [Report Bug](https://github.com/PremPMehta/ERP-CRM-Accounting-Invoicing-Software/issues)
 </div>
 
-**🚀 Self-hosted Entreprise Version** : [https://cloud.idurarapp.com](https://cloud.idurarapp.com)
+---
 
+## 📋 Table of Contents
 
-## ⚠️ SECURITY WARNING for Developers & Web Agencies & Blockchain Developer
+- [✨ Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🚀 Quick Start](#-quick-start)
+- [📦 Installation](#-installation)
+- [🔧 Configuration](#-configuration)
+- [🏗️ Project Structure](#️-project-structure)
+- [📱 Screenshots](#-screenshots)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
 
-We’ve been made aware of scammer contacting developers or web agencies, asking them to develop and run malicious or altered versions of IDURAR software.
+---
 
-🚫 NEVER trust emails, messages, or DMs claiming to be from IDURAR unless they come from our official domain: **@idurarapp.com**  
-🚫 DO NOT run unknown versions of the app sent via email or third-party GitHub repositories.
+## ✨ Features
 
-✅ Official GitHub Repo: [https://github.com/idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm)  
-✅ Official Website: [https://idurarapp.com](https://idurarapp.com)
+### 🏢 **Core Business Management**
+- **📊 Invoice Management** - Create, edit, and track professional invoices
+- **💰 Payment Management** - Monitor payments, transactions, and financial reports
+- **📋 Quote Management** - Generate and manage customer quotes
+- **👥 Customer Management** - Complete CRM with customer profiles and history
+- **📈 Analytics Dashboard** - Real-time business insights and reports
 
-🚨 WARNING: We have been informed that scammers are misusing this open-source project and falsely claiming to represent IDURAR.AI.
+### 🎨 **Modern User Interface**
+- **🎯 Ant Design Framework** - Professional and responsive UI components
+- **📱 Mobile Responsive** - Works seamlessly on all devices
+- **🌙 Dark/Light Theme** - Customizable appearance
+- **⚡ Fast Performance** - Optimized for speed and efficiency
 
-⚠️ Only trust official information, updates, and licenses from our official website: [https://idurarapp.com](https://idurarapp.com). and official github repo: https://github.com/idurar/idurar-erp-crm
-We do **not** auhorize any third party to sell, license, or represent our software or brand.
+### 🔧 **Technical Excellence**
+- **🔒 Secure Authentication** - JWT-based user authentication
+- **📊 Real-time Updates** - Live data synchronization
+- **🔄 RESTful API** - Clean and well-documented API endpoints
+- **📦 Modular Architecture** - Scalable and maintainable codebase
 
-🚫 Never run versions of IDURAR downloaded from unofficial GitHub repositories.  
-These may be **fake**, **malicious**, or used to scam users.
+---
 
-✅ Stay safe. Verify the source and always contact us through our website if in doubt.
+## 🛠️ Tech Stack
 
-## Features :
+### **Frontend**
+- **React.js 18** - Modern UI library
+- **Ant Design 5** - Professional UI components
+- **Redux Toolkit** - State management
+- **React Router** - Navigation
+- **Axios** - HTTP client
+- **Vite** - Build tool
 
-Invoice Management
+### **Backend**
+- **Node.js 18** - JavaScript runtime
+- **Express.js 4** - Web framework
+- **MongoDB 6** - NoSQL database
+- **Mongoose** - ODM for MongoDB
+- **JWT** - Authentication
+- **Bcrypt** - Password hashing
 
-Payment Management
+### **Development Tools**
+- **ESLint** - Code linting
+- **Prettier** - Code formatting
+- **Git** - Version control
+- **Docker** - Containerization (optional)
 
-Quote Management
+---
 
-Customer Management
+## 🚀 Quick Start
 
-Ant Design Framework(AntD) 🐜
+### Prerequisites
+- Node.js 18+ 
+- MongoDB 6+
+- Git
 
-Based on Mern Stack (Node.js / Express.js / MongoDb / React.js ) 👨‍💻
+### 1. Clone the Repository
+```bash
+git clone https://github.com/PremPMehta/ERP-CRM-Accounting-Invoicing-Software.git
+cd ERP-CRM-Accounting-Invoicing-Software
+```
 
-### May i can use IDURAR for Commercial use :
+### 2. Install Dependencies
+```bash
+# Install backend dependencies
+cd backend
+npm install
 
-- Yes You can use IDURAR for free for personal or Commercial use.
+# Install frontend dependencies
+cd ../frontend
+npm install
+```
 
-## Our Sponsors
+### 3. Configure Environment
+```bash
+# Copy environment files
+cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env
+```
 
-  <a href="https://m.do.co/c/4ead8370b905?ref=idurarapp.com">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="201px">
-  </a>
+### 4. Start the Application
+```bash
+# Start backend server (from backend directory)
+npm run dev
 
-#
+# Start frontend server (from frontend directory)
+npm run dev
+```
 
-<img width="1403" alt="Open Source ERP CRM" src="https://github.com/idurar/idurar-erp-crm/assets/136928179/a6712286-7ca6-4822-8902-fb7523533ee8">
+Visit `http://localhost:3000` to access the application!
 
-## Free Open Source ERP / CRM App
+---
 
-IDURAR is Open "Fair-Code" Source ERP / CRM (Invoice / Inventory / Accounting / HR) Based on Mern Stack (Node.js / Express.js / MongoDb / React.js ) with Ant Design (AntD) and Redux
+## 📦 Installation
 
+For detailed installation instructions, see our [Installation Guide](INSTALLATION-INSTRUCTIONS.md).
 
-## Getting started
+### Step-by-Step Setup
 
-1.[Clone the repository](INSTALLATION-INSTRUCTIONS.md#step-1-clone-the-repository)
+1. **Database Setup**
+   - Create MongoDB Atlas account
+   - Set up database cluster
+   - Get connection string
 
-2.[Create Your MongoDB Account and Database Cluster](INSTALLATION-INSTRUCTIONS.md#Step-2-Create-Your-MongoDB-Account-and-Database-Cluster)
+2. **Environment Configuration**
+   - Configure database URI
+   - Set JWT secret
+   - Configure email settings
 
-3.[Edit the Environment File](INSTALLATION-INSTRUCTIONS.md#Step-3-Edit-the-Environment-File)
+3. **Application Setup**
+   - Run database migrations
+   - Create admin user
+   - Configure initial settings
 
-4.[Update MongoDB URI](INSTALLATION-INSTRUCTIONS.md#Step-4-Update-MongoDB-URI)
+---
 
-5.[Install Backend Dependencies](INSTALLATION-INSTRUCTIONS.md#Step-5-Install-Backend-Dependencies)
+## 🔧 Configuration
 
-6.[Run Setup Script](INSTALLATION-INSTRUCTIONS.md#Step-6-Run-Setup-Script)
+### Environment Variables
 
-7.[Run the Backend Server](INSTALLATION-INSTRUCTIONS.md#Step-7-Run-the-Backend-Server)
+#### Backend (.env)
+```env
+PORT=5000
+MONGODB_URI=mongodb://localhost:27017/erp-crm
+JWT_SECRET=your-secret-key
+NODE_ENV=development
+```
 
-8.[Install Frontend Dependencies](INSTALLATION-INSTRUCTIONS.md#Step-8-Install-Frontend-Dependencies)
+#### Frontend (.env)
+```env
+VITE_API_URL=http://localhost:5000/api
+VITE_APP_NAME=ERP CRM
+```
 
-9.[Run the Frontend Server](INSTALLATION-INSTRUCTIONS.md#Step-9-Run-the-Frontend-Server)
+### Database Configuration
+- MongoDB connection string
+- Database name and collections
+- Index optimization
 
-## Contributing
+---
 
-1.[How to contribute](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#how-to-contribute)
+## 🏗️ Project Structure
 
-2.[Reporting issues](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#reporting-issues)
+```
+ERP-CRM-Accounting-Invoicing-Software/
+├── 📁 backend/                 # Node.js/Express.js backend
+│   ├── 📁 src/
+│   │   ├── 📁 controllers/     # Route controllers
+│   │   ├── 📁 models/         # MongoDB models
+│   │   ├── 📁 routes/         # API routes
+│   │   ├── 📁 middleware/     # Custom middleware
+│   │   └── 📁 utils/          # Utility functions
+│   ├── package.json
+│   └── .env
+├── 📁 frontend/               # React.js frontend
+│   ├── 📁 src/
+│   │   ├── 📁 components/     # React components
+│   │   ├── 📁 pages/         # Page components
+│   │   ├── 📁 store/         # Redux store
+│   │   ├── 📁 utils/         # Utility functions
+│   │   └── 📁 assets/        # Static assets
+│   ├── package.json
+│   └── index.html
+├── 📁 doc/                    # Documentation
+├── 📁 features/               # Feature documentation
+└── README.md
+```
 
-3.[Working on issues ](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#working-on-issues)
+---
 
-4.[Submitting pull requests](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#submitting-pull-requests)
+## 📱 Screenshots
 
-5.[Commit Guidelines](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#commit-guidelines)
+<div align="center">
+  <img src="image.png" alt="ERP CRM Dashboard" width="800"/>
+  
+  *Modern dashboard with comprehensive business overview*
+</div>
 
-6.[Coding Guidelines](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#coding-guidelines)
+### Key Features Showcase
+- **📊 Dashboard** - Real-time business metrics
+- **📄 Invoices** - Professional invoice creation
+- **👥 Customers** - Complete customer management
+- **💰 Payments** - Payment tracking and reports
+- **📋 Quotes** - Quote generation and management
 
-7.[Questions](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#questions)
+---
 
+## 🤝 Contributing
 
-## Show your support
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-Dont forget to give a ⭐️ to this project ... Happy coding!
+### How to Contribute
 
-**🚀 Self-hosted Entreprise Version** : [https://cloud.idurarapp.com](https://cloud.idurarapp.com)
+1. **Fork the repository**
+2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
+4. **Push to the branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
 
-## License
+### Development Guidelines
 
-IDURAR is Free Open Source Released under the GNU Affero General Public License v3.0.
+- Follow the existing code style
+- Add tests for new features
+- Update documentation as needed
+- Ensure all tests pass
+
+---
+
+## 📄 License
+
+This project is licensed under the **GNU Affero General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
+
+### Commercial Use
+✅ **Yes, you can use this software for commercial purposes** - it's completely free for both personal and commercial use.
+
+---
+
+## 🙏 Acknowledgments
+
+- **Original Project**: [IDURAR ERP CRM](https://github.com/idurar/idurar-erp-crm)
+- **UI Framework**: [Ant Design](https://ant.design/)
+- **Backend Framework**: [Express.js](https://expressjs.com/)
+- **Database**: [MongoDB](https://www.mongodb.com/)
+- **Frontend Framework**: [React.js](https://reactjs.org/)
+
+---
+
+<div align="center">
+  <p><strong>Made with ❤️ by the Open Source Community</strong></p>
+  
+  [![GitHub stars](https://img.shields.io/github/stars/PremPMehta/ERP-CRM-Accounting-Invoicing-Software?style=social)](https://github.com/PremPMehta/ERP-CRM-Accounting-Invoicing-Software/stargazers)
+  [![GitHub forks](https://img.shields.io/github/forks/PremPMehta/ERP-CRM-Accounting-Invoicing-Software?style=social)](https://github.com/PremPMehta/ERP-CRM-Accounting-Invoicing-Software/network/members)
+  [![GitHub issues](https://img.shields.io/github/issues/PremPMehta/ERP-CRM-Accounting-Invoicing-Software)](https://github.com/PremPMehta/ERP-CRM-Accounting-Invoicing-Software/issues)
+  
+  <p>⭐ Star this repository if you found it helpful!</p>
+</div>
