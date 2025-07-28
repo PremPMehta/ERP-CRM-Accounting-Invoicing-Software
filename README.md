@@ -7,6 +7,9 @@
   
   <p><strong>Open Source ERP/CRM System with Invoice, Payment, Quote & Customer Management</strong></p>
   
+  <p>A comprehensive business management platform built with modern technologies to streamline operations, manage customer relationships, and handle financial processes efficiently.</p>
+</div>
+  
   [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-green.svg)](https://opensource.org/licenses/AGPL-3.0)
   [![Node.js](https://img.shields.io/badge/Node.js-18.x-brightgreen.svg)](https://nodejs.org/)
   [![React](https://img.shields.io/badge/React-18.x-blue.svg)](https://reactjs.org/)
